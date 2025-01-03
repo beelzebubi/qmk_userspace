@@ -48,6 +48,11 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     ),
 };
 
+// layer_state_t layer_state_set_user(layer_state_t state) {
+//     state = update_tri_layer_state(state, _RAISE, _LOWER, _ADJUST);
+//     return state;
+// }
+
 // uint8_t mod_state;
 // bool process_record_user(uint16_t keycode, keyrecord_t *record) {
 //     // Store the current modifier state in the variable for later reference
