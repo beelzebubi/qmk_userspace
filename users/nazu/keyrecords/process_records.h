@@ -31,6 +31,7 @@ enum userspace_custom_keycodes {
 #define LT_BPCF LT(_FN1_60, KC_BSPC)
 #define CA_COPY LCTL(KC_C)
 #define CA_PSTE LCTL(KC_V)
+#define CA_MUTE LAG(KC_K)
 #define LALT_F4 LM(_FN2, MOD_LALT)
 #define HYPR_BS HYPR_T(KC_BSPC)
 
