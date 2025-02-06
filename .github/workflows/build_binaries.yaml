@@ -17,7 +17,7 @@ jobs:
 
   publish:
     name: 'QMK Userspace Publish'
-    uses: qmk/.github/.github/workflows/qmk_userspace_publish.yml@main
-    #uses: beelzebubi/qmk_userspace/.github/workflows/qmk_userspace_publish.yml@main
+    #uses: qmk/.github/.github/workflows/qmk_userspace_publish.yml@main
+    uses: beelzebubi/qmk_userspace/.github/workflows/qmk_userspace_publish.yml@main
     if: always() && !cancelled()
     needs: build
